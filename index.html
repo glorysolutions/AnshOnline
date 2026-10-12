@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#123c35">
+<meta name="description" content="Ansh Studio & CSC Centre, Odekera. PAN Card, Voter ID, income/caste/residence certificates, Resume Maker, PVC printing and online form assistance.">
+<title>Ansh Studio & CSC Centre | CSC Services</title>
+<style>
+:root{--g:#123c35;--g2:#1c6657;--gold:#e6b85c;--bg:#f4f7f4;--ink:#1d2925;--muted:#65736d;--line:#dfe7e1;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Arial,"Noto Sans Devanagari",sans-serif;line-height:1.55}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+.top{background:#09241f;color:#e4f0e9;padding:8px 0;font-size:12px}.top .wrap{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
+header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}.nav{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:13px 0}.brand{display:flex;align-items:center;gap:11px;font-weight:800;color:var(--g);line-height:1.2}.logo{background:var(--g);color:#fff;border:2px solid var(--gold);border-radius:12px;padding:12px 9px;font-size:13px}.brand small{display:block;color:var(--muted);font-size:11px;font-weight:500;margin-top:4px}
+nav{display:flex;gap:18px;align-items:center;font-size:13px;font-weight:700}nav a:hover{color:var(--g2)}.btn{display:inline-flex;justify-content:center;align-items:center;gap:7px;border:0;border-radius:10px;padding:12px 16px;font-weight:800;cursor:pointer;text-decoration:none;font-size:14px}.primary{background:var(--g2);color:#fff}.primary:hover{background:var(--g)}.gold{background:var(--gold);color:#1e2d28}.outline{background:transparent;color:var(--g);border:1px solid #b8cbc1}.wa{background:#187b4b;color:#fff}
+.hero{background:linear-gradient(120deg,#103b34,#1c6657 72%,#247664);color:#fff;padding:58px 0}.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:32px;align-items:center}.eyebrow{display:inline-block;color:#ffe4a0;font-weight:800;font-size:11px;letter-spacing:1.1px;border:1px solid #ffffff40;border-radius:30px;padding:7px 11px}.hero h1{font-size:clamp(32px,5vw,52px);line-height:1.15;letter-spacing:-1px;margin:17px 0}.hero p{color:#e2eee8;max-width:620px;font-size:16px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.hero-card{background:#ffffff12;border:1px solid #ffffff30;border-radius:18px;padding:22px}.hero-card h3{margin:0 0 10px}.quick{padding:11px 0;border-bottom:1px solid #ffffff24;display:flex;gap:12px}.quick:last-child{border:0}.quick b{display:block}.quick small{color:#d5e8df}
+section{padding:56px 0}.section-head{margin-bottom:25px}.section-head h2{font-size:clamp(25px,3vw,34px);line-height:1.2;color:var(--g);margin:0}.section-head p{color:var(--muted);margin:9px 0 0;max-width:740px}.services{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.service{background:#fff;border:1px solid var(--line);border-radius:15px;padding:21px;display:flex;flex-direction:column;min-height:235px;box-shadow:0 5px 20px #102e250a}.icon{width:45px;height:45px;border-radius:12px;background:#eaf3ee;display:grid;place-items:center;font-size:23px;margin-bottom:12px}.service h3{color:var(--g);font-size:18px;margin:0 0 7px}.service p{color:var(--muted);font-size:14px;margin:0 0 17px;flex:1}.service .btn{align-self:flex-start;padding:10px 13px;font-size:13px}
+.note{font-size:12px;color:var(--muted);margin-top:18px;padding:13px 15px;border-left:3px solid var(--gold);background:#fff;border-radius:0 8px 8px 0}
+.tool-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:22px;align-items:start}.side-card{background:var(--g);color:#fff;border-radius:17px;padding:24px}.side-card h2{font-size:29px;line-height:1.2;margin:12px 0}.side-card p,.side-card li{color:#dcebe3}.side-card li{margin:8px 0}.form-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px}.form-card h3{margin:0 0 16px;color:var(--g)}.grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.field{display:flex;flex-direction:column;gap:6px}.full{grid-column:1/-1}label{font-weight:700;font-size:13px}input,textarea,select{font:inherit;font-size:14px;padding:11px 12px;border:1px solid #ccd9d0;border-radius:9px;background:#fff;width:100%}input:focus,textarea:focus,select:focus{outline:2px solid #a5d2bf;border-color:var(--g2)}textarea{min-height:75px;resize:vertical}.help{font-size:12px;color:var(--muted)}.doc-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.doc{padding:13px;border:1px solid var(--line);border-radius:11px;background:#fbfcfb}.doc label{display:block;margin-bottom:7px}.consent{display:flex;gap:9px;align-items:flex-start;font-size:12px;margin-top:15px}.consent input{width:auto;margin-top:4px}.status{font-size:13px;white-space:pre-wrap;margin-top:12px}.hide{display:none!important}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.step{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px}.step b{display:block;color:var(--g);font-size:16px;margin-bottom:6px}.step p{margin:0;color:var(--muted);font-size:14px}
+.contact{background:var(--g);color:#fff}.contact .section-head h2{color:#fff}.contact .section-head p{color:#d4e6dd}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.contact-card{padding:23px;border:1px solid #ffffff2b;border-radius:15px;background:#ffffff09}.contact-card h3{margin-top:0}.contact-card p{color:#d8e8e0}.line{padding:9px 0;border-bottom:1px solid #ffffff22}.line:last-child{border:0}footer{background:#09241f;color:#bcd0c7;padding:20px 0;font-size:12px}.foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:800px){nav a:not(.btn){display:none}.hero-grid,.tool-grid,.contact-grid{grid-template-columns:1fr}.services{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:1fr}.side-card{order:0}}
+@media(max-width:520px){.services{grid-template-columns:1fr}.grid,.doc-grid{grid-template-columns:1fr}.full{grid-column:auto}.hero{padding:42px 0}.hero p{font-size:15px}section{padding:42px 0}.form-card{padding:16px}.nav>.btn{font-size:12px;padding:10px}.brand{font-size:13px}.logo{padding:10px 7px}.actions .btn{width:100%}}
+</style>
+</head>
+<body>
+<div class="top"><div class="wrap"><span>CSC सेवा सहायता केंद्र</span><span>📍 अंबेडकर चौक, बस स्टैंड, ओड़ेकेरा</span></div></div>
+<header><div class="wrap nav">
+<a class="brand" href="#home"><span class="logo">ANSH</span><span>Ansh Studio & CSC Centre<small>Digital Services • Odekera</small></span></a>
+<nav><a href="#services">सेवाएँ</a><a href="#pan">PAN आवेदन</a><a href="#resume">Resume Maker</a><a href="#contact">संपर्क</a><a class="btn wa" href="https://wa.me/919644892123" target="_blank" rel="noopener">WhatsApp</a></nav>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+<div><span class="eyebrow">CSC • ONLINE ASSISTANCE</span><h1>आपके डिजिटल काम,<br>एक ही जगह।</h1><p>आय, जाति, निवास, PAN कार्ड, वोटर कार्ड, Resume, ऑनलाइन फॉर्म और उपलब्ध CSC सेवाओं के लिए संपर्क करें। सेवा की उपलब्धता, पात्रता और फीस की पुष्टि पहले कर लें।</p><div class="actions"><a class="btn gold" href="#services">सभी सेवाएँ देखें ↓</a><a class="btn outline" style="color:#fff;border-color:#ffffff80" href="https://wa.me/919644892123?text=Namaste%2C%20mujhe%20CSC%20services%20ki%20jaankari%20chahiye." target="_blank" rel="noopener">WhatsApp पर पूछें ↗</a></div></div>
+<aside class="hero-card"><h3>प्रमुख सेवाएँ</h3><div class="quick"><span>📄</span><div><b>प्रमाण पत्र सहायता</b><small>आय • जाति • निवास</small></div></div><div class="quick"><span>🪪</span><div><b>पहचान पत्र</b><small>PAN कार्ड • वोटर कार्ड</small></div></div><div class="quick"><span>✍️</span><div><b>Resume Maker</b><small>रिज्यूमे बनाएं और PDF सेव करें</small></div></div><div class="quick"><span>💻</span><div><b>ऑनलाइन फॉर्म</b><small>भर्ती व उपलब्ध सेवाएँ</small></div></div></aside>
+</div></section>
+
+<section id="services"><div class="wrap"><div class="section-head"><h2>आपकी CSC सेवाएँ</h2><p>अपनी जरूरत की सेवा चुनें। WhatsApp बटन पर क्लिक करने से सेवा के नाम के साथ पूछताछ का संदेश खुलेगा।</p></div><div class="services" id="serviceGrid"></div>
+<div class="note">यह निजी सेवा केंद्र की जानकारी वाली वेबसाइट है, सरकारी वेबसाइट नहीं। आवेदन का परिणाम या प्रमाण पत्र जारी होना संबंधित विभाग की पात्रता, नियम और मंजूरी पर निर्भर करता है। केवल अधिकृत सेवाएँ ही उपलब्ध कराएँ।</div></div></section>
+
+<section id="pan" style="background:#eaf1ec"><div class="wrap"><div class="section-head"><h2>PAN Card आवेदन सहायता</h2><p>आवेदक की जानकारी और जरूरी दस्तावेजों के लिए फॉर्म। संवेदनशील दस्तावेज GitHub में सेव नहीं किए जाते।</p></div>
+<div class="tool-grid">
+<div class="side-card"><span class="eyebrow">PRIVACY FIRST</span><h2>अपनी जानकारी सावधानी से भेजें</h2><p>यह फॉर्म PAN आवेदन सहायता के लिए है। सुरक्षित ऑनलाइन अपलोड तब तक उपलब्ध नहीं होगा जब तक निजी बैकएंड और फाइल स्टोरेज कॉन्फ़िगर न हो जाए।</p><ul><li>नाम, जन्मतिथि, मोबाइल और पता</li><li>पिता और माता का नाम</li><li>आधार Front/Back, फोटो और हस्ताक्षर के फाइल फ़ील्ड</li><li>WhatsApp पर सामान्य पूछताछ</li></ul><p class="help" style="color:#d7e9df">OTP, पासवर्ड या अनावश्यक संवेदनशील जानकारी साझा न करें।</p></div>
+<form id="panForm" class="form-card">
+<h3>आवेदक की जानकारी</h3><div class="grid">
+<div class="field"><label for="pName">पूरा नाम *</label><input id="pName" name="fullName" required maxlength="100"></div>
+<div class="field"><label for="pDob">जन्मतिथि *</label><input id="pDob" name="dob" type="date" required></div>
+<div class="field"><label for="pMobile">मोबाइल नंबर *</label><input id="pMobile" name="mobile" type="tel" inputmode="numeric" pattern="[0-9]{10}" maxlength="10" required placeholder="10 अंक"></div>
+<div class="field"><label for="pFather">पिता का नाम *</label><input id="pFather" name="fatherName" required maxlength="100"></div>
+<div class="field"><label for="pMother">माता का नाम</label><input id="pMother" name="motherName" maxlength="100"></div>
+<div class="field full"><label for="pAddress">पूरा पता *</label><textarea id="pAddress" name="address" required maxlength="500"></textarea></div>
+</div>
+<h3 style="margin-top:24px">दस्तावेज़ फ़ाइलें</h3><div class="doc-grid">
+<div class="doc"><label for="aadFront">आधार Front *</label><input id="aadFront" type="file" accept="image/jpeg,image/png,application/pdf" required><small class="help">JPG/PNG/PDF, अधिकतम 5 MB</small></div>
+<div class="doc"><label for="aadBack">आधार Back *</label><input id="aadBack" type="file" accept="image/jpeg,image/png,application/pdf" required><small class="help">JPG/PNG/PDF, अधिकतम 5 MB</small></div>
+<div class="doc"><label for="pPhoto">पासपोर्ट फोटो *</label><input id="pPhoto" type="file" accept="image/jpeg,image/png" required><small class="help">JPG/PNG, अधिकतम 5 MB</small></div>
+<div class="doc"><label for="pSign">हस्ताक्षर *</label><input id="pSign" type="file" accept="image/jpeg,image/png" required><small class="help">JPG/PNG, अधिकतम 5 MB</small></div>
+</div>
+<div class="field" style="margin-top:15px"><label for="sendMethod">दस्तावेज भेजने का तरीका *</label><select id="sendMethod" required><option value="whatsapp">WhatsApp पर संपर्क करें (फाइलें खुद अटैच करनी होंगी)</option><option value="secure">वेबसाइट से सुरक्षित अपलोड</option></select></div>
+<div id="secureInfo" class="note hide">सुरक्षित अपलोड अभी चालू नहीं है। कोई फाइल सर्वर पर नहीं भेजी जाएगी। इसे चालू करने के लिए निजी backend, authenticated access और private storage सेटअप करना होगा।</div>
+<div class="consent"><input type="checkbox" id="pConsent" required><label for="pConsent" style="font-weight:500">मैं सहमति देता/देती हूँ कि जानकारी PAN आवेदन सहायता के लिए इस्तेमाल हो। WhatsApp चुनने पर मैं समझता/समझती हूँ कि फाइलें चैट में खुद जोड़नी होंगी।</label></div>
+<div class="actions"><button class="btn primary" type="submit">आगे बढ़ें</button><button class="btn outline" type="reset">फॉर्म साफ करें</button></div><div class="status" id="panStatus" role="status" aria-live="polite"></div>
+</form></div></div></section>
+
+<section id="resume"><div class="wrap"><div class="section-head"><h2>Resume / बायोडाटा Maker</h2><p>अपनी जानकारी भरकर Resume Preview बनाएं। Print विकल्प में “Save as PDF” चुन सकते हैं। यह टूल जानकारी को किसी सर्वर पर नहीं भेजता।</p></div>
+<div class="tool-grid"><div class="side-card"><span class="eyebrow">FREE BROWSER TOOL</span><h2>नौकरी के लिए Resume बनाएं</h2><p>शिक्षा, कौशल और अनुभव भरें, फिर प्रिंट करें या PDF में सेव करें।</p><ul><li>सरल और साफ फॉर्मेट</li><li>Preview और Print</li><li>कोई अकाउंट जरूरी नहीं</li></ul></div>
+<div class="form-card"><form id="resumeForm"><div class="grid">
+<div class="field"><label for="rName">पूरा नाम *</label><input id="rName" required></div><div class="field"><label for="rRole">लक्षित पद</label><input id="rRole" placeholder="जैसे Office Assistant"></div>
+<div class="field"><label for="rPhone">मोबाइल</label><input id="rPhone" inputmode="tel"></div><div class="field"><label for="rEmail">ईमेल</label><input id="rEmail" type="email"></div>
+<div class="field full"><label for="rAddress">पता</label><input id="rAddress"></div><div class="field full"><label for="rEdu">शिक्षा *</label><textarea id="rEdu" required placeholder="कक्षा/डिग्री, बोर्ड/कॉलेज, वर्ष"></textarea></div>
+<div class="field full"><label for="rSkills">कौशल</label><textarea id="rSkills" placeholder="कंप्यूटर, भाषा, अन्य कौशल"></textarea></div><div class="field full"><label for="rExp">काम का अनुभव</label><textarea id="rExp" placeholder="अनुभव न हो तो Fresher लिखें"></textarea></div><div class="field full"><label for="rLang">भाषाएँ</label><input id="rLang"></div><div class="field full"><label for="rObjective">Career Objective</label><textarea id="rObjective"></textarea></div>
+</div><div class="actions"><button class="btn primary" type="submit">Preview बनाएं</button><button class="btn outline" type="reset">फॉर्म साफ करें</button></div></form>
+<div id="resumePreview" class="form-card hide" style="margin-top:18px"><div class="actions" style="margin-top:0"><button id="printResume" class="btn primary" type="button">Print / Save PDF</button></div><div id="resumeOutput" style="margin-top:20px"></div></div>
+</div></div></div></section>
+
+<section><div class="wrap"><div class="section-head"><h2>सेवा लेने का तरीका</h2></div><div class="steps"><div class="step"><b>01 — सेवा चुनें</b><p>सूची में अपनी जरूरत की सेवा खोजें।</p></div><div class="step"><b>02 — WhatsApp करें</b><p>संदेश में सेवा का नाम पहले से जुड़ा होगा।</p></div><div class="step"><b>03 — पुष्टि करें</b><p>दस्तावेज, फीस और पात्रता की पुष्टि के बाद आगे बढ़ें।</p></div></div></div></section>
+
+<section class="contact" id="contact"><div class="wrap"><div class="section-head"><h2>संपर्क करें</h2><p>CSC सेवा की जानकारी के लिए संपर्क करें।</p></div><div class="contact-grid"><div class="contact-card"><h3>Ansh Studio & CSC Centre</h3><div class="line">📍 <b>पता:</b> अंबेडकर चौक, बस स्टैंड, ओड़ेकेरा</div><div class="line">📞 <b>मोबाइल:</b> 9644892123</div><div class="line">🕘 <b>समय:</b> WhatsApp पर पूछें</div></div><div class="contact-card"><h3>WhatsApp पर पूछें</h3><p>सेवा की उपलब्धता और आवश्यक दस्तावेजों की सूची पूछें। OTP, पासवर्ड या संवेदनशील पहचान जानकारी सामान्य संदेश में न भेजें।</p><a class="btn gold" href="https://wa.me/919644892123?text=Namaste%2C%20mujhe%20Ansh%20Studio%20%26%20CSC%20Centre%20ki%20service%20ke%20baare%20mein%20jaankari%20chahiye." target="_blank" rel="noopener">WhatsApp संदेश भेजें ↗</a></div></div></div></section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> Ansh Studio & CSC Centre</span><span>ग्राहक सहायता वेबसाइट • GitHub Pages</span></div></footer>
+
+<script>
+const WA="919644892123";
+const services=[
+{icon:"📄",title:"PAN कार्ड सेवाएँ",desc:"नया आवेदन, सुधार और आवेदन संबंधी जानकारी।",anchor:"#pan"},
+{icon:"🗳️",title:"वोटर कार्ड सेवाएँ",desc:"वोटर कार्ड आवेदन, सुधार और संबंधित प्रक्रिया की जानकारी।"},
+{icon:"💰",title:"आय प्रमाण पत्र",desc:"आवेदन प्रक्रिया, पात्रता और जरूरी दस्तावेजों की जानकारी।"},
+{icon:"📑",title:"जाति प्रमाण पत्र",desc:"जाति प्रमाण पत्र के आवेदन और दस्तावेज संबंधी सहायता।"},
+{icon:"🏠",title:"निवास प्रमाण पत्र",desc:"निवास प्रमाण पत्र की प्रक्रिया और जरूरी दस्तावेज।"},
+{icon:"🪪",title:"PVC कार्ड एवं प्रिंट",desc:"उपलब्ध और अधिकृत कार्ड प्रिंटिंग सेवा की जानकारी।"},
+{icon:"✍️",title:"Resume / बायोडाटा",desc:"नौकरी के लिए Resume बनाएं या प्रिंट/PDF सेव करें।",anchor:"#resume"},
+{icon:"💻",title:"ऑनलाइन फॉर्म",desc:"भर्ती, प्रवेश और अन्य उपलब्ध ऑनलाइन फॉर्म में सहायता।"},
+{icon:"🏛️",title:"सरकारी योजनाएँ",desc:"उपलब्ध योजनाओं की पात्रता और आवेदन प्रक्रिया के बारे में पूछें।"},
+{icon:"🖨️",title:"प्रिंट एवं स्कैन",desc:"दस्तावेज प्रिंट, स्कैन और कॉपी की उपलब्ध सेवाएँ।"},
+{icon:"🔐",title:"e-KYC सहायता",desc:"जहाँ अधिकृत हो, वहाँ e-KYC प्रक्रिया संबंधी सहायता।"},
+{icon:"➕",title:"अन्य CSC सेवाएँ",desc:"यदि सेवा सूची में नहीं है, तो उपलब्धता के लिए संपर्क करें।"}
+];
+const grid=document.getElementById("serviceGrid");
+services.forEach(s=>{
+ const card=document.createElement("article");card.className="service";
+ const ico=document.createElement("div");ico.className="icon";ico.textContent=s.icon;
+ const h=document.createElement("h3");h.textContent=s.title;
+ const p=document.createElement("p");p.textContent=s.desc;
+ const a=document.createElement("a");a.className="btn primary";a.textContent=s.anchor?"सेवा खोलें":"WhatsApp पर पूछें";
+ if(s.anchor){a.href=s.anchor;}else{a.href="https://wa.me/"+WA+"?text="+encodeURIComponent("Namaste, mujhe "+s.title+" ke baare mein jaankari chahiye.");a.target="_blank";a.rel="noopener";}
+ card.append(ico,h,p,a);grid.append(card);
+});
+document.getElementById("year").textContent=new Date().getFullYear();
+
+// PAN form: secure upload is deliberately disabled until a private backend is configured.
+const SECURE_UPLOAD_ENDPOINT="";
+const panForm=document.getElementById("panForm"), sendMethod=document.getElementById("sendMethod"), panStatus=document.getElementById("panStatus"), secureInfo=document.getElementById("secureInfo");
+sendMethod.addEventListener("change",()=>secureInfo.classList.toggle("hide",sendMethod.value!=="secure"));
+panForm.addEventListener("submit",e=>{
+ e.preventDefault();panStatus.textContent="";
+ if(!panForm.reportValidity())return;
+ for(const id of ["aadFront","aadBack","pPhoto","pSign"]){
+  const f=document.getElementById(id).files[0];
+  if(!f){panStatus.textContent="सभी जरूरी दस्तावेज चुनें।";return;}
+  if(f.size>5*1024*1024){panStatus.textContent="हर फाइल 5 MB से छोटी होनी चाहिए।";return;}
+  if(!["image/jpeg","image/png","application/pdf"].includes(f.type)){panStatus.textContent="JPG, PNG या PDF फाइल ही चुनें।";return;}
+ }
+ if(sendMethod.value==="secure"){
+  if(!SECURE_UPLOAD_ENDPOINT){secureInfo.classList.remove("hide");panStatus.textContent="सुरक्षित अपलोड अभी चालू नहीं है। कोई जानकारी या फाइल अपलोड नहीं हुई। मालिक को private backend और storage सेटअप करना होगा।";return;}
+  panStatus.textContent="अपलोड के लिए बैकएंड कनेक्शन तैयार करें।";return;
+ }
+ // Do not put personal data into the WhatsApp URL. User must decide what to share and attach files manually.
+ panStatus.textContent="WhatsApp खुलेगा। निजी जानकारी URL में नहीं भेजी जाएगी और फाइलें अपने-आप attach नहीं होंगी। चैट में आवश्यक जानकारी और फाइलें भेजने से पहले पुष्टि कर लें।";
+ window.open("https://wa.me/"+WA+"?text="+encodeURIComponent("Namaste, mujhe PAN Card application assistance chahiye. Kripya document submit karne ka surakshit tareeka aur required documents bataiye."),"_blank","noopener");
+});
+panForm.addEventListener("reset",()=>{panStatus.textContent="";setTimeout(()=>secureInfo.classList.toggle("hide",sendMethod.value!=="secure"),0)});
+
+// Resume builder: data remains in the browser, no network submission.
+const rf=document.getElementById("resumeForm"), preview=document.getElementById("resumePreview"), out=document.getElementById("resumeOutput");
+const rv=id=>document.getElementById(id).value.trim();
+const esc=s=>String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+rf.addEventListener("submit",e=>{
+ e.preventDefault();if(!rf.reportValidity())return;
+ const section=(title,body)=>body?`<section style="padding:12px 0;border-bottom:1px solid #ddd"><h3 style="font-size:14px;text-transform:uppercase;margin:0 0 5px;color:#174c40">${title}</h3><div style="white-space:pre-line;font-size:13px">${esc(body)}</div></section>`:"";
+ out.innerHTML=`<div id="printableResume" style="font-family:Arial,sans-serif;color:#202a26;max-width:800px;margin:auto"><div style="border-bottom:3px solid #174c40;padding-bottom:14px"><h1 style="font-size:30px;margin:0 0 5px;color:#174c40">${esc(rv("rName"))}</h1>${rv("rRole")?`<b>${esc(rv("rRole"))}</b><br>`:""}<small>${[rv("rPhone"),rv("rEmail"),rv("rAddress")].filter(Boolean).map(esc).join(" | ")}</small></div>${section("Career Objective",rv("rObjective"))}${section("Education",rv("rEdu"))}${section("Skills",rv("rSkills"))}${section("Work Experience",rv("rExp"))}${section("Languages",rv("rLang"))}</div>`;
+ preview.classList.remove("hide");preview.scrollIntoView({behavior:"smooth",block:"start"});
+});
+document.getElementById("printResume").addEventListener("click",()=>{
+ const content=out.innerHTML, win=window.open("","_blank","noopener");
+ if(!win){window.print();return;}
+ win.document.write("<!doctype html><html><head><meta charset='utf-8'><title>Resume</title><style>body{font-family:Arial,sans-serif;padding:25px;color:#202a26}@media print{body{padding:0}}</style></head><body>"+content+"</body></html>");
+ win.document.close();win.focus();setTimeout(()=>win.print(),300);
+});
+</script>
+</body>
+</html>
